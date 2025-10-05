@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Premier Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenue sur mon premier site</h1>
+    <nav>
+  <a href="#accueil">Accueil</a>
+  <a href="#apropos">À propos</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+  </header>
+
+  <main>
+  <section id="accueil" class="reveal">
+  <h2>Accueil</h2>
+  <img src="Dossier image/dexterposter.jpg" alt="Photo de moi">
+  <p>My name is dexter morgan</p>
+  <button onclick="direBonjour()">Clique ici</button>
+</section>
+
+ 
+<section id="apropos" class="reveal">
+  <h2>À propos</h2>
+  <p>Je suis un futur développeur web puissant 💻.  
+  J’apprends à coder étape par étape.</p>
+</section>
+
+  <section id="services" class="reveal">
+  <h2>Mes Services</h2>
+  <ul>
+    <li>Création de site vitrine</li>
+    <li>Maintenance de site internet</li>
+    <li>Projets trading et automatisation</li>
+  </ul>
+</section>
+
+<!-- Section Portfolio -->
+<section id="portfolio" class="reveal">
+  <h2>Mon Portfolio</h2>
+  <div class="portfolio-container">
+    <div class="projet">
+      <img src="Dossier image/Exemple-site-vitrine-1.jpg" alt="Projet 1">
+      <h3>Site Vitrine</h3>
+      <p>Un site professionnel pour une entreprise locale.</p>
+    </div>
+
+    <div class="projet">
+      <img src="Dossier image/IMG_7304-1024x682.jpg" alt="Projet 2">
+      <h3>Plateforme speculative</h3>
+      <p>Un dashboard pour suivre des performances en ligne.</p>
+    </div>
+
+    <div class="projet">
+      <p>Une interface moderne pour les commandes de repas.</p>
+      <h3>App Restaurant</h3>
+      <img src="Dossier image/le-restaurant-veut-se-doter-d-une-ambiance-brasserie-chic-a-la-fois-traditionnelle-et-moderne-photo-studio-adn-1514584117.jpg" alt="Projet 3">
+      <h3>App pour Restaurant</h3>
+      <p>Une interface moderne pour les commandes de repas.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="reveal">
+  <h2>Contact</h2>
+
+  <form id="formulaire-contact">
+    <label for="nom">Nom :</label><br>
+    <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required><br><br>
+
+    <label for="email">Email :</label><br>
+    <input type="email" id="email" name="email" placeholder="Entrez votre email" required><br><br>
+
+    <label for="message">Message :</label><br>
+    <textarea id="message" name="message" rows="4" placeholder="Votre message..." required></textarea><br><br>
+
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+  
+</main>
+
+
+  <footer>
+    <p>© 2025 - Mon Premier Site</p>
+  </footer>
+
+  <!-- Lien vers le fichier JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
